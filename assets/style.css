@@ -10,6 +10,10 @@ h1, h2 {
     text-align: center;
 }
 
+.hide {
+    display: none;
+}
+
 /* Outer container for slides */
 
 .outer-container {
@@ -71,6 +75,25 @@ p {
     display: none; 
 }
 
+.question-screen li{
+    border-radius: 0.5rem;
+    font-weight: 600;
+    margin: .7rem 0;
+    padding: .4rem 1.2rem;
+    cursor: pointer;
+    border: 3px solid purple;
+    background-color: purple;
+}
+
+.question-screen li:hover{
+    background-color: grey;
+    border-color: grey;
+
+}
+
+.question-screen li:active{
+    transform: scale(.95);
+}
 /* Final Page */
 
 .quiz-finish-screen {
