@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* Outer container for slides */
+
+.outer-container {
+    padding: 10px;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: start;
+}
+
+/* Timer and High Score button */
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+p {
+    color: aquamarine;
+    font-size: 20;
+}
+
+/* inner container section */
+
+.inner-container {
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+/* header/quiz intro section */
+
+.quiz-intro, main {
+    display: none;
+    margin-bottom: 100px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.quiz-intro p {
+    text-align: center;
+}
+
+.quiz-intro button {
+    display: block;
+    margin: 0 auto;
+}
+
+/* main quiz content */
+
+/* Question Screen */
+
+.question-screen {
+    display: none; 
+}
+
+/* Final Page */
+
+.quiz-finish-screen {
+    display: none;
+}
+
+/* HighScore Screen */
+
+.highscore-screen {
+    display: none;
+}
