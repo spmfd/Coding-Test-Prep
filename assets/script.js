@@ -22,13 +22,14 @@ function startquiz() {
 
 /* Timer Section */
 var time = 90;
+var elapsedTime
 
 function timer() {
     timerEl.textContent = time;
     interval = setInterval(function () {
-        secondsElapsed++;
-        timerEl.textContent = time - secondsElapsed;
-        if (secondsElapsed >= time) {
+        elapsedTime++;
+        timerEl.textContent = time - elapsedTime;
+        if (elapsedTime >= time) {
             currentQ = questions.length;
             nextQuestion();
         }
